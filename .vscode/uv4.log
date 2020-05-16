@@ -1,0 +1,10 @@
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling usart.c...
+USER\usart.h(29): warning:  #1-D: last line of file ends without a newline
+  #endif
+USER\usart.c: 1 warning, 0 errors
+linking...
+Program Size: Code=484 RO-data=320 RW-data=0 ZI-data=1024  
+".\Objects\gps.axf" - 0 Error(s), 1 Warning(s).
+Build Time Elapsed:  00:00:02

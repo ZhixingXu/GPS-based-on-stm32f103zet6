@@ -1,0 +1,13 @@
+.\objects\gps.o: USER\gps.c
+.\objects\gps.o: USER\gps.h
+.\objects\gps.o: .\USER\stm32f10x.h
+.\objects\gps.o: .\CMSIS\core_cm3.h
+.\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\gps.o: .\CMSIS\system_stm32f10x.h
+.\objects\gps.o: .\USER\stm32f10x_conf.h
+.\objects\gps.o: .\FWLib\inc\stm32f10x_exti.h
+.\objects\gps.o: .\USER\stm32f10x.h
+.\objects\gps.o: .\FWLib\inc\stm32f10x_gpio.h
+.\objects\gps.o: .\FWLib\inc\stm32f10x_rcc.h
+.\objects\gps.o: .\FWLib\inc\stm32f10x_usart.h
+.\objects\gps.o: .\FWLib\inc\misc.h

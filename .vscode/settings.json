@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "*.m": "matlab",
+        "main.h": "c",
+        "gps.h": "c",
+        "lcd.h": "c",
+        "stm32f10x.h": "c",
+        "stm32f10x_conf.h": "c",
+        "usart.h": "c",
+        "string.h": "c",
+        "cwchar": "c",
+        "limits": "c",
+        "functional": "c"
+    }
+}
