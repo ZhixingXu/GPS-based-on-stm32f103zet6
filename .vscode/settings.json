@@ -10,6 +10,27 @@
         "string.h": "c",
         "cwchar": "c",
         "limits": "c",
-        "functional": "c"
-    }
+        "functional": "c",
+        "algorithm": "c",
+        "deque": "c",
+        "fstream": "c",
+        "ios": "c",
+        "iosfwd": "c",
+        "istream": "c",
+        "iterator": "c",
+        "memory": "c",
+        "ostream": "c",
+        "queue": "c",
+        "sstream": "c",
+        "stdexcept": "c",
+        "streambuf": "c",
+        "string": "c",
+        "utility": "c",
+        "vector": "c",
+        "*.tcc": "c",
+        "exception": "c",
+        "string_view": "c",
+        "type_traits": "c"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }

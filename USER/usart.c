@@ -6,7 +6,6 @@ int fputc(int ch,File*f){
     USART_SendData(USART1,ch);
     while (USART_GetFlagStatus(USART1,USART_FLAG_TC)==RESET);
     return ch;
-    
 }
 
 void USART1_Config(){

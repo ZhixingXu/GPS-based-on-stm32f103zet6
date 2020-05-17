@@ -11,3 +11,4 @@
 .\objects\usart.o: .\FWLib\inc\stm32f10x_rcc.h
 .\objects\usart.o: .\FWLib\inc\stm32f10x_usart.h
 .\objects\usart.o: .\FWLib\inc\misc.h
+.\objects\usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

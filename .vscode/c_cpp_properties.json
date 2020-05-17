@@ -25,7 +25,8 @@
                 "__pure=",
                 "__value_in_regs=",
                 "USE_STDPERIPH_DRIVER",
-                "STM32F10X_HD"
+                "STM32F10X_HD",
+                "TEST"
             ],
             "intelliSenseMode": "${default}"
         }

@@ -4,7 +4,7 @@
 #include <stm32f10x.h>
 
 #ifdef TEST
-#include<stdio.h>
+#include <stdio.h>
 #endif
 //define of usart1
 #define USART1_PORT_BUS RCC_APB2Periph_GPIOA
@@ -19,6 +19,7 @@
 #define USART2_PORT_TX  GPIO_Pin_2
 #define USART2_PORT_RX  GPIO_Pin_3
 
+#define File FILE
 
 
 #ifdef TEST

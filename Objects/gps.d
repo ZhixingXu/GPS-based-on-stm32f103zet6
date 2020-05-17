@@ -11,3 +11,6 @@
 .\objects\gps.o: .\FWLib\inc\stm32f10x_rcc.h
 .\objects\gps.o: .\FWLib\inc\stm32f10x_usart.h
 .\objects\gps.o: .\FWLib\inc\misc.h
+.\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gps.o: USER\usart.h
+.\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
