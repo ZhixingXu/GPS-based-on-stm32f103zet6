@@ -1,7 +1,7 @@
 
 # GPS-based-on-stm32f103zet6
 
-this program about GPS is developed on stm32f103zet6,it will show utc time,longitude,latitude,direction etc on lcd12864
+this program about GPS is developed on stm32f103zet6,it will show utc time,longitude,latitude,direction etc on OLED screen(128*64)
 
 ![1](assets/2020-05-24-15-06-57.png)
 

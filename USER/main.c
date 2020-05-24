@@ -3,7 +3,7 @@
  * @Version: 1.0
  * @Autor: shuai-xv
  * @Date: 2020-05-16 19:08:46
- * @LastEditTime: 2020-05-24 14:56:05
+ * @LastEditTime: 2020-05-24 20:26:32
  */ 
 #include "main.h"
 
@@ -42,7 +42,7 @@ int main()
         else
         {//searching GPS signal
 			OLED_Clear();
-            OLED_ShowString(20,16,(unsigned char*)"searching...",16);
+            OLED_ShowSearching();
             #ifdef TEST
             printf("Searching...\r\n");
             #endif

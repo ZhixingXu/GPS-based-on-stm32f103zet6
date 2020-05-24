@@ -3,7 +3,7 @@
  * @Version: 1.0
  * @Autor: shuai-xv
  * @Date: 2020-05-11 21:29:10
- * @LastEditTime: 2020-05-24 14:57:36
+ * @LastEditTime: 2020-05-24 20:33:19
  */ 
 
 
@@ -170,8 +170,19 @@ void OLED_ShowHeigt(void){
         OLED_ShowString(32,48,(unsigned char*)height,16);
         OLED_ShowChinese(32+len*8,48,10,16);//米
     }
-    
+}
 
+
+void OLED_ShowSearching(){
+    static uint8_t i=0;
+    uint8_t j=0;
+    i++;
+    OLED_ShowString(12,16,(unsigned char*)"searching",16);
+    for(j=0;j<i;j++){
+        OLED_ShowChar(84+j*8,16,'.',16);
+    }
+    if(i>=3)
+        i=0;
 }
 /**
  * @description: 是否接受到了起始符号

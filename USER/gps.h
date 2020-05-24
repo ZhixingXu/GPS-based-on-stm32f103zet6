@@ -3,7 +3,7 @@
  * @Version: 1.0
  * @Autor: shuai-xv
  * @Date: 2020-05-11 21:29:20
- * @LastEditTime: 2020-05-24 14:31:15
+ * @LastEditTime: 2020-05-24 20:24:30
  */ 
 #ifndef GPS_H
 #define GPS_H
@@ -97,6 +97,7 @@ void GPS_GetAll(void);
 void OLED_ShowLocation(void);
 void OLED_ShowTime(void);
 void OLED_ShowHeigt(void);
+void OLED_ShowSearching(void);
 
 #endif
 
