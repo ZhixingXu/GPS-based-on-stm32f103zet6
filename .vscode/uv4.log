@@ -1,10 +1,45 @@
-*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
-Build target 'Target 1'
-compiling usart.c...
-USER\usart.h(29): warning:  #1-D: last line of file ends without a newline
-  #endif
-USER\usart.c: 1 warning, 0 errors
-linking...
-Program Size: Code=484 RO-data=320 RW-data=0 ZI-data=1024  
-".\Objects\gps.axf" - 0 Error(s), 1 Warning(s).
-Build Time Elapsed:  00:00:02
+Load "e:\\STM\\3.Practice\\GPS\\Objects\\gps.axf" 
+Set JLink Project File to "e:\STM\3.Practice\GPS\JLinkSettings.ini"* JLink Info: Device "STM32F103VE" selected.
+
+JLink info:
+------------
+DLL: V6.70b, compiled Apr  3 2020 11:44:53
+Firmware: J-Link STLink V21 compiled Aug 12 2019 10:29:20
+Hardware: V1.00
+S/N : 775137607 
+
+* JLink Info: Found SW-DP with ID 0x1BA01477
+* JLink Info: Found SW-DP with ID 0x1BA01477
+* JLink Info: Unknown DP version. Assuming DPv0
+* JLink Info: Scanning AP map to find all available APs
+* JLink Info: AP[1]: Stopped AP scan as end of AP map has been reached
+* JLink Info: AP[0]: AHB-AP (IDR: 0x14770011)
+* JLink Info: Iterating through AP map to find AHB-AP to use
+* JLink Info: AP[0]: Core found
+* JLink Info: AP[0]: AHB-AP ROM base: 0xE00FF000
+* JLink Info: CPUID register: 0x411FC231. Implementer code: 0x41 (ARM)
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: CoreSight components:
+* JLink Info: ROMTbl[0] @ E00FF000
+* JLink Info: ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 001BB000 SCS
+* JLink Info: ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 001BB002 DWT
+* JLink Info: ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 000BB003 FPB
+* JLink Info: ROMTbl[0][3]: E0000000, CID: B105E00D, PID: 001BB001 ITM
+* JLink Info: ROMTbl[0][4]: E0040000, CID: B105900D, PID: 001BB923 TPIU-Lite
+* JLink Info: ROMTbl[0][5]: E0041000, CID: B105900D, PID: 101BB924 ETM-M3
+ROMTableAddr = 0xE00FF000
+* JLink Info: Reset: Halt core after reset via DEMCR.VC_CORERESET.
+* JLink Info: Reset: Reset device via AIRCR.SYSRESETREQ.
+
+Target info:
+------------
+Device: STM32F103VE
+VTarget = 3.300V
+State of Pins: TCK: 0, TDI: 128, TDO: 64, TMS: 0, TRES: 1, TRST: 255
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 4000 kHz
+
+Erase Done.Programming Done.Verify OK.Flash Load finished at 14:57:57

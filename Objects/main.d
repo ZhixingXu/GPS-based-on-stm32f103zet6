@@ -9,11 +9,13 @@
 .\objects\main.o: .\USER\stm32f10x.h
 .\objects\main.o: .\FWLib\inc\stm32f10x_gpio.h
 .\objects\main.o: .\FWLib\inc\stm32f10x_rcc.h
+.\objects\main.o: .\FWLib\inc\stm32f10x_spi.h
 .\objects\main.o: .\FWLib\inc\stm32f10x_usart.h
 .\objects\main.o: .\FWLib\inc\misc.h
 .\objects\main.o: USER\gps.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\main.o: USER\lcd.h
+.\objects\main.o: USER\oled.h
+.\objects\main.o: USER\delay.h
+.\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\main.o: USER\usart.h
 .\objects\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\main.o: USER\delay.h

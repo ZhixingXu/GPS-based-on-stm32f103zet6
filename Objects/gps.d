@@ -9,8 +9,12 @@
 .\objects\gps.o: .\USER\stm32f10x.h
 .\objects\gps.o: .\FWLib\inc\stm32f10x_gpio.h
 .\objects\gps.o: .\FWLib\inc\stm32f10x_rcc.h
+.\objects\gps.o: .\FWLib\inc\stm32f10x_spi.h
 .\objects\gps.o: .\FWLib\inc\stm32f10x_usart.h
 .\objects\gps.o: .\FWLib\inc\misc.h
 .\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\gps.o: USER\oled.h
+.\objects\gps.o: USER\delay.h
+.\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
 .\objects\gps.o: USER\usart.h
 .\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

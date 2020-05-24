@@ -4,5 +4,6 @@
 
 void Systick_Init(void);
 void delayus(int t);
+void delayms(int t);
 
 #endif

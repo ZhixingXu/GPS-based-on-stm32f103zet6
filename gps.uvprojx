@@ -544,11 +544,6 @@
               <FilePath>.\USER\gps.c</FilePath>
             </File>
             <File>
-              <FileName>lcd.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\USER\lcd.c</FilePath>
-            </File>
-            <File>
               <FileName>usart.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\USER\usart.c</FilePath>
@@ -557,6 +552,11 @@
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\USER\delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>oled.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\USER\oled.c</FilePath>
             </File>
           </Files>
         </Group>

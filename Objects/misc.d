@@ -9,5 +9,6 @@
 .\objects\misc.o: .\USER\stm32f10x.h
 .\objects\misc.o: .\FWLib\inc\stm32f10x_gpio.h
 .\objects\misc.o: .\FWLib\inc\stm32f10x_rcc.h
+.\objects\misc.o: .\FWLib\inc\stm32f10x_spi.h
 .\objects\misc.o: .\FWLib\inc\stm32f10x_usart.h
 .\objects\misc.o: .\FWLib\inc\misc.h

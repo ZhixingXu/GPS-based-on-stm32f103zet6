@@ -10,7 +10,7 @@
 
 #include <stm32f10x.h>
 #include "gps.h"
-#include "lcd.h"
+#include "oled.h"
 #include "usart.h"
 #include "delay.h"
 

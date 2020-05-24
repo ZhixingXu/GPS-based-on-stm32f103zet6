@@ -9,5 +9,6 @@
 .\objects\delay.o: .\USER\stm32f10x.h
 .\objects\delay.o: .\FWLib\inc\stm32f10x_gpio.h
 .\objects\delay.o: .\FWLib\inc\stm32f10x_rcc.h
+.\objects\delay.o: .\FWLib\inc\stm32f10x_spi.h
 .\objects\delay.o: .\FWLib\inc\stm32f10x_usart.h
 .\objects\delay.o: .\FWLib\inc\misc.h

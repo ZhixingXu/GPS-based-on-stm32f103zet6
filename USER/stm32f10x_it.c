@@ -23,7 +23,8 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f10x_it.h"
-
+//#include "gps.h"
+//char TEMP;
 /** @addtogroup STM32F10x_StdPeriph_Template
   * @{
   */
@@ -156,5 +157,10 @@ void SysTick_Handler(void)
   * @}
   */ 
 
-
+//void USART2_IRQHandler(){
+//  if(USART_GetITStatus(USART2,USART_IT_RXNE)){
+//    USART_ClearITPendingBit(USART2,USART_IT_RXNE);
+//    TEMP=USART_ReceiveData(USART2);
+//  }
+//}
 /******************* (C) COPYRIGHT 2011 STMicroelectronics *****END OF FILE****/

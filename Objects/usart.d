@@ -9,6 +9,7 @@
 .\objects\usart.o: .\USER\stm32f10x.h
 .\objects\usart.o: .\FWLib\inc\stm32f10x_gpio.h
 .\objects\usart.o: .\FWLib\inc\stm32f10x_rcc.h
+.\objects\usart.o: .\FWLib\inc\stm32f10x_spi.h
 .\objects\usart.o: .\FWLib\inc\stm32f10x_usart.h
 .\objects\usart.o: .\FWLib\inc\misc.h
 .\objects\usart.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

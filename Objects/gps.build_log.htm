@@ -21,16 +21,33 @@ Target DLL:      Segger\JL2CM3.dll V2.99.36.0
 Dialog DLL:      TCM.DLL V1.36.5.0
  
 <h2>Project:</h2>
-E:\STM\3.Practice\GPS\gps.uvprojx
-Project File Date:  05/17/2020
+e:\STM\3.Practice\GPS\gps.uvprojx
+Project File Date:  05/22/2020
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
 Build target 'Target 1'
 compiling gps.c...
+USER\gps.c(91): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+      OLED_ShowString(32,16,integer,16);
+USER\gps.c(93): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+      OLED_ShowString(72,16,fra,16);
+USER\gps.c(103): warning:  #175-D: subscript out of range
+      fra[3]='\0';
+USER\gps.c(104): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+      OLED_ShowString(32,32,integer,16);
+USER\gps.c(106): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+      OLED_ShowString(64,32,fra,16);
+USER\gps.c(143): warning:  #520-D: initialization with "{...}" expected for aggregate object
+      char height[7]='\0';
+USER\gps.c(170): warning:  #167-D: argument of type "char *" is incompatible with parameter of type "unsigned char *"
+          OLED_ShowString(32,48,height,16);
+USER\gps.c(109): warning: C4488E: write to variable 'fra' with offset out of bounds
+}
+USER\gps.c: 8 warnings, 0 errors
 linking...
-Program Size: Code=2468 RO-data=336 RW-data=24 ZI-data=1160  
-".\Objects\gps.axf" - 0 Error(s), 0 Warning(s).
+Program Size: Code=5080 RO-data=6416 RW-data=376 ZI-data=3312  
+".\Objects\gps.axf" - 0 Error(s), 8 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -44,7 +61,7 @@ Package Vendor: Keil
   C:\Users\28378\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:03
 </pre>
 </body>
 </html>

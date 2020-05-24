@@ -32,5 +32,5 @@
         "string_view": "c",
         "type_traits": "c"
     },
-    "C_Cpp.errorSquiggles": "Disabled"
+    "C_Cpp.errorSquiggles": "Enabled"
 }

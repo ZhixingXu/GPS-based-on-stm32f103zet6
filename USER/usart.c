@@ -1,3 +1,10 @@
+/*
+ * @Description: 
+ * @Version: 1.0
+ * @Autor: shuai-xv
+ * @Date: 2020-05-11 21:30:05
+ * @LastEditTime: 2020-05-17 19:01:31
+ */ 
 #include "usart.h"
 
 #ifdef TEST
@@ -38,6 +45,9 @@ void USART1_Config(){
 void USART2_Config(){
     USART_InitTypeDef USART_InitStructure;
     GPIO_InitTypeDef GPIO_InitStructure;
+//    NVIC_InitTypeDef NVIC_InitStructure;
+
+//    NVIC_PriorityGroupConfig(NVIC_PriorityGroup_1);
 
     RCC_APB2PeriphClockCmd(USART2_PORT_BUS,ENABLE);
     RCC_APB1PeriphClockCmd(USART2_BUS,ENABLE);
@@ -58,6 +68,13 @@ void USART2_Config(){
     USART_InitStructure.USART_WordLength=USART_WordLength_8b;
     USART_Init(USART2,&USART_InitStructure);
 
+//    NVIC_InitStructure.NVIC_IRQChannel=USART2_IRQn;
+//    NVIC_InitStructure.NVIC_IRQChannelPreemptionPriority=0;
+//    NVIC_InitStructure.NVIC_IRQChannelSubPriority=1;
+//    NVIC_InitStructure.NVIC_IRQChannelCmd=ENABLE;
+//    NVIC_Init(&NVIC_InitStructure);
+
     USART_Cmd(USART2,ENABLE);
+//    USART_ITConfig(USART2,USART_IT_RXNE,ENABLE);
 }
 

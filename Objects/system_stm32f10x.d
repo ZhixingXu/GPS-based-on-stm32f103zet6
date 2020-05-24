@@ -8,5 +8,6 @@
 .\objects\system_stm32f10x.o: .\USER\stm32f10x.h
 .\objects\system_stm32f10x.o: .\FWLib\inc\stm32f10x_gpio.h
 .\objects\system_stm32f10x.o: .\FWLib\inc\stm32f10x_rcc.h
+.\objects\system_stm32f10x.o: .\FWLib\inc\stm32f10x_spi.h
 .\objects\system_stm32f10x.o: .\FWLib\inc\stm32f10x_usart.h
 .\objects\system_stm32f10x.o: .\FWLib\inc\misc.h

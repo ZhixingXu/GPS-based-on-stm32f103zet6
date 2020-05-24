@@ -11,3 +11,4 @@
 .\objects\lcd.o: .\FWLib\inc\stm32f10x_rcc.h
 .\objects\lcd.o: .\FWLib\inc\stm32f10x_usart.h
 .\objects\lcd.o: .\FWLib\inc\misc.h
+.\objects\lcd.o: USER\delay.h

@@ -3,7 +3,7 @@
  * @Version: 1.0
  * @Autor: shuai-xv
  * @Date: 2020-05-11 21:29:20
- * @LastEditTime: 2020-05-17 17:49:34
+ * @LastEditTime: 2020-05-24 14:31:15
  */ 
 #ifndef GPS_H
 #define GPS_H
@@ -15,9 +15,9 @@ typedef struct
 {
     //char GUIDE[7];//固定为$GPGGA
     char UTC_time[10];//HHMMSS.00
-    char latitude[10];//纬度ddmm.mmmm,即dd度,mm.mmmm分
+    char latitude[11];//纬度ddmm.mmmm,即dd度,mm.mmmm分
     char latitude_dir[2];//N/S
-    char longitudu[11];//dddmm.mmmm即ddd度,mm.mmmm分
+    char longitudu[12];//dddmm.mmmm即ddd度,mm.mmmm分
     char longitude_dir[2];//E/W
     char quality_factor[2];//0:没有定位,1=实施GPS,2=差分GPS
     char satellite_num[3];
@@ -60,7 +60,7 @@ typedef union
 static const int GPS_GPVTG_SIZE=12;
 
 typedef struct {
-    char _NO_USA_[54];
+    char _NO_USE_[46];
     char UTC_Day[6];
 }GPRMC_Data;
 typedef union {
@@ -82,11 +82,21 @@ extern GPS_GPGGA gpgga;//经纬度(海拔)
 extern GPS_GPVTG gpvtg;//航向,(室内测试找不到)
 // extern GPS_GPZDA gpzda;//UTC时间
 extern GPS_GPRMC gprmc;
-//static char ALL[500];
 
-void GPS_GetData(void);
+//extern char TEMP;
+
+#define GPS_DATA_SIZE 500
+static char GPS_ALL[GPS_DATA_SIZE];
+
+// void GPS_GetData(void);
 bool GPS_IsWorkSteady(void);
-void GPS_Work(void);
+bool GPS_hasTime(void);
+// void GPS_Work(void);
+void GPS_InfoSort(void);
+void GPS_GetAll(void);
+void OLED_ShowLocation(void);
+void OLED_ShowTime(void);
+void OLED_ShowHeigt(void);
 
 #endif
 
