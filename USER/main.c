@@ -41,7 +41,8 @@ int main()
         }
         else
         {//searching GPS signal
-            OLED_ShowString(20,16,"searching...",16);
+			OLED_Clear();
+            OLED_ShowString(20,16,(unsigned char*)"searching...",16);
             #ifdef TEST
             printf("Searching...\r\n");
             #endif

@@ -88,9 +88,9 @@ void OLED_ShowLocation(){
     OLED_ShowChinese(16,16,2,16);//经
     strncpy(integer,gpgga.GPS_Data.longitudu,3);
     strncpy(fra,gpgga.GPS_Data.longitudu+3,2);
-    OLED_ShowString(32,16,integer,16);
+    OLED_ShowString(32,16,(unsigned char*)integer,16);
     OLED_ShowChinese(56,16,6,16);//度
-    OLED_ShowString(72,16,fra,16);
+    OLED_ShowString(72,16,(unsigned char*)fra,16);
     OLED_ShowChinese(88,16,7,16);//分
 
     if(gpgga.GPS_Data.latitude_dir[0]=="N"[0])
@@ -100,10 +100,10 @@ void OLED_ShowLocation(){
     OLED_ShowChinese(16,32,5,16);//纬
     strncpy(integer,gpgga.GPS_Data.latitude,2);
     strncpy(fra,gpgga.GPS_Data.latitude+2,2);
-    fra[3]='\0';
-    OLED_ShowString(32,32,integer,16);
+    fra[2]='\0';
+    OLED_ShowString(32,32,(unsigned char*)integer,16);
     OLED_ShowChinese(48,32,6,16);//度
-    OLED_ShowString(64,32,fra,16);
+    OLED_ShowString(64,32,(unsigned char*)fra,16);
     OLED_ShowChinese(80,32,7,16);//分
     //OLED_ShowString(32,32,gpgga.GPS_Data.latitude,16);
 }
@@ -140,7 +140,7 @@ void OLED_ShowTime(){
 void OLED_ShowHeigt(void){
     //8个\0之后就是
     //char*t="063122.00,3212.49685,N,11440.62246,E,1,08,1.04,34.9,M";//34.9海拔
-    char height[7]='\0';
+    char height[7]="\0";
     uint8_t i=0,j=0,len;
     while (i<54)
     {
@@ -167,7 +167,7 @@ void OLED_ShowHeigt(void){
         len=strlen(height);
         OLED_ShowChinese(0,48,8,16);//海
         OLED_ShowChinese(16,48,9,16);//拔
-        OLED_ShowString(32,48,height,16);
+        OLED_ShowString(32,48,(unsigned char*)height,16);
         OLED_ShowChinese(32+len*8,48,10,16);//米
     }
     

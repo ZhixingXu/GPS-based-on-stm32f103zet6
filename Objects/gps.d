@@ -16,5 +16,3 @@
 .\objects\gps.o: USER\oled.h
 .\objects\gps.o: USER\delay.h
 .\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
-.\objects\gps.o: USER\usart.h
-.\objects\gps.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
