@@ -968,54 +968,54 @@ Memory Map of the image
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x08000000   0x08000000   0x00000130   Data   RO            3    RESET               startup_stm32f10x_hd.o
-    0x08000130   0x08000130   0x00000000   Code   RO         3498  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x08000130   0x08000130   0x00000004   Code   RO         3507    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x08000134   0x08000134   0x00000004   Code   RO         3510    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x08000138   0x08000138   0x00000000   Code   RO         3512    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x08000138   0x08000138   0x00000000   Code   RO         3514    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x08000138   0x08000138   0x00000008   Code   RO         3515    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x08000140   0x08000140   0x00000000   Code   RO         3517    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x08000140   0x08000140   0x00000000   Code   RO         3519    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x08000140   0x08000140   0x00000004   Code   RO         3508    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x08000130   0x08000130   0x00000000   Code   RO         3457  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x08000130   0x08000130   0x00000004   Code   RO         3466    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x08000134   0x08000134   0x00000004   Code   RO         3469    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x08000138   0x08000138   0x00000000   Code   RO         3471    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x08000138   0x08000138   0x00000000   Code   RO         3473    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x08000138   0x08000138   0x00000008   Code   RO         3474    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x08000140   0x08000140   0x00000000   Code   RO         3476    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x08000140   0x08000140   0x00000000   Code   RO         3478    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x08000140   0x08000140   0x00000004   Code   RO         3467    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
     0x08000144   0x08000144   0x00000024   Code   RO            4    .text               startup_stm32f10x_hd.o
-    0x08000168   0x08000168   0x00000018   Code   RO         3501    .text               mc_w.l(strncpy.o)
-    0x08000180   0x08000180   0x0000000e   Code   RO         3503    .text               mc_w.l(strlen.o)
-    0x0800018e   0x0800018e   0x0000001e   Code   RO         3505    .text               mc_w.l(strncmp.o)
-    0x080001ac   0x080001ac   0x00000024   Code   RO         3521    .text               mc_w.l(init.o)
-    0x080001d0   0x080001d0   0x00000056   Code   RO         3531    .text               mc_w.l(__dczerorl2.o)
+    0x08000168   0x08000168   0x00000018   Code   RO         3460    .text               mc_w.l(strncpy.o)
+    0x08000180   0x08000180   0x0000000e   Code   RO         3462    .text               mc_w.l(strlen.o)
+    0x0800018e   0x0800018e   0x0000001e   Code   RO         3464    .text               mc_w.l(strncmp.o)
+    0x080001ac   0x080001ac   0x00000024   Code   RO         3480    .text               mc_w.l(init.o)
+    0x080001d0   0x080001d0   0x00000056   Code   RO         3490    .text               mc_w.l(__dczerorl2.o)
     0x08000226   0x08000226   0x00000004   Code   RO         3108    i.BusFault_Handler  stm32f10x_it.o
     0x0800022a   0x0800022a   0x00000002   Code   RO         3109    i.DebugMon_Handler  stm32f10x_it.o
     0x0800022c   0x0800022c   0x00000116   Code   RO         1271    i.GPIO_Init         stm32f10x_gpio.o
     0x08000342   0x08000342   0x00000004   Code   RO         1278    i.GPIO_ResetBits    stm32f10x_gpio.o
     0x08000346   0x08000346   0x00000004   Code   RO         1279    i.GPIO_SetBits      stm32f10x_gpio.o
     0x0800034a   0x0800034a   0x00000002   PAD
-    0x0800034c   0x0800034c   0x00000068   Code   RO         3255    i.GPS_GetAll        gps.o
-    0x080003b4   0x080003b4   0x000000f0   Code   RO         3256    i.GPS_InfoSort      gps.o
-    0x080004a4   0x080004a4   0x00000028   Code   RO         3257    i.GPS_IsWorkSteady  gps.o
-    0x080004cc   0x080004cc   0x00000018   Code   RO         3258    i.GPS_hasTime       gps.o
+    0x0800034c   0x0800034c   0x00000068   Code   RO         3223    i.GPS_GetAll        gps.o
+    0x080003b4   0x080003b4   0x000000f0   Code   RO         3224    i.GPS_InfoSort      gps.o
+    0x080004a4   0x080004a4   0x00000028   Code   RO         3225    i.GPS_IsWorkSteady  gps.o
+    0x080004cc   0x080004cc   0x00000018   Code   RO         3226    i.GPS_hasTime       gps.o
     0x080004e4   0x080004e4   0x00000004   Code   RO         3110    i.HardFault_Handler  stm32f10x_it.o
     0x080004e8   0x080004e8   0x00000004   Code   RO         3111    i.MemManage_Handler  stm32f10x_it.o
     0x080004ec   0x080004ec   0x00000002   Code   RO         3112    i.NMI_Handler       stm32f10x_it.o
     0x080004ee   0x080004ee   0x00000002   PAD
-    0x080004f0   0x080004f0   0x00000030   Code   RO         3358    i.OLED_Clear        oled.o
-    0x08000520   0x08000520   0x00000060   Code   RO         3359    i.OLED_ClearPoint   oled.o
-    0x08000580   0x08000580   0x0000001c   Code   RO         3360    i.OLED_ColorTurn    oled.o
-    0x0800059c   0x0800059c   0x0000002c   Code   RO         3363    i.OLED_DisplayTurn  oled.o
-    0x080005c8   0x080005c8   0x0000003c   Code   RO         3366    i.OLED_DrawPoint    oled.o
-    0x08000604   0x08000604   0x00000188   Code   RO         3367    i.OLED_Init         oled.o
-    0x0800078c   0x0800078c   0x00000016   Code   RO         3368    i.OLED_Pow          oled.o
+    0x080004f0   0x080004f0   0x00000030   Code   RO         3320    i.OLED_Clear        oled.o
+    0x08000520   0x08000520   0x00000060   Code   RO         3321    i.OLED_ClearPoint   oled.o
+    0x08000580   0x08000580   0x0000001c   Code   RO         3322    i.OLED_ColorTurn    oled.o
+    0x0800059c   0x0800059c   0x0000002c   Code   RO         3325    i.OLED_DisplayTurn  oled.o
+    0x080005c8   0x080005c8   0x0000003c   Code   RO         3328    i.OLED_DrawPoint    oled.o
+    0x08000604   0x08000604   0x00000188   Code   RO         3329    i.OLED_Init         oled.o
+    0x0800078c   0x0800078c   0x00000016   Code   RO         3330    i.OLED_Pow          oled.o
     0x080007a2   0x080007a2   0x00000002   PAD
-    0x080007a4   0x080007a4   0x0000004c   Code   RO         3369    i.OLED_Refresh      oled.o
-    0x080007f0   0x080007f0   0x000000fc   Code   RO         3371    i.OLED_ShowChar     oled.o
-    0x080008ec   0x080008ec   0x000000b8   Code   RO         3372    i.OLED_ShowChinese  oled.o
-    0x080009a4   0x080009a4   0x000000a8   Code   RO         3259    i.OLED_ShowHeigt    gps.o
-    0x08000a4c   0x08000a4c   0x00000110   Code   RO         3260    i.OLED_ShowLocation  gps.o
-    0x08000b5c   0x08000b5c   0x00000074   Code   RO         3373    i.OLED_ShowNum      oled.o
-    0x08000bd0   0x08000bd0   0x0000005c   Code   RO         3261    i.OLED_ShowSearching  gps.o
-    0x08000c2c   0x08000c2c   0x00000042   Code   RO         3375    i.OLED_ShowString   oled.o
+    0x080007a4   0x080007a4   0x0000004c   Code   RO         3331    i.OLED_Refresh      oled.o
+    0x080007f0   0x080007f0   0x000000fc   Code   RO         3333    i.OLED_ShowChar     oled.o
+    0x080008ec   0x080008ec   0x000000b8   Code   RO         3334    i.OLED_ShowChinese  oled.o
+    0x080009a4   0x080009a4   0x000000a8   Code   RO         3227    i.OLED_ShowHeigt    gps.o
+    0x08000a4c   0x08000a4c   0x00000110   Code   RO         3228    i.OLED_ShowLocation  gps.o
+    0x08000b5c   0x08000b5c   0x00000074   Code   RO         3335    i.OLED_ShowNum      oled.o
+    0x08000bd0   0x08000bd0   0x0000005c   Code   RO         3229    i.OLED_ShowSearching  gps.o
+    0x08000c2c   0x08000c2c   0x00000042   Code   RO         3337    i.OLED_ShowString   oled.o
     0x08000c6e   0x08000c6e   0x00000002   PAD
-    0x08000c70   0x08000c70   0x00000108   Code   RO         3262    i.OLED_ShowTime     gps.o
-    0x08000d78   0x08000d78   0x00000080   Code   RO         3377    i.OLED_WR_Byte      oled.o
+    0x08000c70   0x08000c70   0x00000108   Code   RO         3230    i.OLED_ShowTime     gps.o
+    0x08000d78   0x08000d78   0x00000080   Code   RO         3339    i.OLED_WR_Byte      oled.o
     0x08000df8   0x08000df8   0x00000002   Code   RO         3113    i.PendSV_Handler    stm32f10x_it.o
     0x08000dfa   0x08000dfa   0x00000002   PAD
     0x08000dfc   0x08000dfc   0x00000020   Code   RO         1696    i.RCC_APB1PeriphClockCmd  stm32f10x_rcc.o
@@ -1028,21 +1028,21 @@ Memory Map of the image
     0x08000ffc   0x08000ffc   0x00000002   Code   RO         3115    i.SysTick_Handler   stm32f10x_it.o
     0x08000ffe   0x08000ffe   0x00000002   PAD
     0x08001000   0x08001000   0x00000060   Code   RO           27    i.SystemInit        system_stm32f10x.o
-    0x08001060   0x08001060   0x00000080   Code   RO         3316    i.USART2_Config     usart.o
+    0x08001060   0x08001060   0x00000080   Code   RO         3284    i.USART2_Config     usart.o
     0x080010e0   0x080010e0   0x00000012   Code   RO         2871    i.USART_ClearFlag   stm32f10x_usart.o
     0x080010f2   0x080010f2   0x00000018   Code   RO         2875    i.USART_Cmd         stm32f10x_usart.o
     0x0800110a   0x0800110a   0x0000001a   Code   RO         2878    i.USART_GetFlagStatus  stm32f10x_usart.o
     0x08001124   0x08001124   0x000000d8   Code   RO         2882    i.USART_Init        stm32f10x_usart.o
     0x080011fc   0x080011fc   0x0000000a   Code   RO         2889    i.USART_ReceiveData  stm32f10x_usart.o
     0x08001206   0x08001206   0x00000004   Code   RO         3116    i.UsageFault_Handler  stm32f10x_it.o
-    0x0800120a   0x0800120a   0x0000000e   Code   RO         3525    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x08001218   0x08001218   0x00000002   Code   RO         3526    i.__scatterload_null  mc_w.l(handlers.o)
-    0x0800121a   0x0800121a   0x0000000e   Code   RO         3527    i.__scatterload_zeroinit  mc_w.l(handlers.o)
-    0x08001228   0x08001228   0x00000048   Code   RO         3332    i.delayms           delay.o
-    0x08001270   0x08001270   0x00000046   Code   RO         3333    i.delayus           delay.o
+    0x0800120a   0x0800120a   0x0000000e   Code   RO         3484    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x08001218   0x08001218   0x00000002   Code   RO         3485    i.__scatterload_null  mc_w.l(handlers.o)
+    0x0800121a   0x0800121a   0x0000000e   Code   RO         3486    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x08001228   0x08001228   0x00000048   Code   RO         3297    i.delayms           delay.o
+    0x08001270   0x08001270   0x00000046   Code   RO         3298    i.delayus           delay.o
     0x080012b6   0x080012b6   0x0000004e   Code   RO         3187    i.main              main.o
-    0x08001304   0x08001304   0x000017c0   Data   RO         3379    .constdata          oled.o
-    0x08002ac4   0x08002ac4   0x00000020   Data   RO         3523    Region$$Table       anon$$obj.o
+    0x08001304   0x08001304   0x000017c0   Data   RO         3341    .constdata          oled.o
+    0x08002ac4   0x08002ac4   0x00000020   Data   RO         3482    Region$$Table       anon$$obj.o
 
 
     Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x08002ae4, Size: 0x00000e68, Max: 0x00010000, ABSOLUTE, COMPRESSED[0x00000148])
@@ -1050,12 +1050,12 @@ Memory Map of the image
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
     0x20000000   COMPRESSED   0x00000014   Data   RW         1726    .data               stm32f10x_rcc.o
-    0x20000014   COMPRESSED   0x00000001   Data   RW         3264    .data               gps.o
-    0x20000015   COMPRESSED   0x00000160   Data   RW         3380    .data               oled.o
+    0x20000014   COMPRESSED   0x00000001   Data   RW         3232    .data               gps.o
+    0x20000015   COMPRESSED   0x00000160   Data   RW         3342    .data               oled.o
     0x20000175   COMPRESSED   0x00000003   PAD
     0x20000178        -       0x00000278   Zero   RW         3188    .bss                main.o
-    0x200003f0        -       0x000001f4   Zero   RW         3263    .bss                gps.o
-    0x200005e4        -       0x00000480   Zero   RW         3378    .bss                oled.o
+    0x200003f0        -       0x000001f4   Zero   RW         3231    .bss                gps.o
+    0x200005e4        -       0x00000480   Zero   RW         3340    .bss                oled.o
     0x20000a64   COMPRESSED   0x00000004   PAD
     0x20000a68        -       0x00000400   Zero   RW            1    STACK               startup_stm32f10x_hd.o
 
